@@ -11,5 +11,6 @@ router.get("/health", (req, res) => {
 
 // auth routes
 router.use("/auth", require("./auth"));
+router.use("/ig", require("./ig"));
 
 module.exports = router;

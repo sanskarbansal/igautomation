@@ -7,5 +7,7 @@ router.get("/callback", verifyWebhook);
 
 // POST /api/ig/callback - Receive webhook events from Instagram
 router.post("/callback", handleWebhookCallback);
+// router.post("/callback", handleWebhookCallback);
 
+router.get;
 module.exports = router;
